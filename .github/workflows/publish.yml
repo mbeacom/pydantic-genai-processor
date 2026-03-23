@@ -24,7 +24,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install uv and set the python version
-        uses: astral-sh/setup-uv@1e862dfacbd1d6d858c55d9b792c756523627244  # v7.1.4
+        uses: astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78  # v7.6.0
         with:
           enable-cache: true
           python-version-file: .python-version
